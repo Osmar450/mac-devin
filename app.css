@@ -1,0 +1,96 @@
+app.css
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    background: linear-gradient(to right, #e74c3c, #c0392b);
+    color: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    background: linear-gradient(to right, #f39c12, #e67e22);
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.stickers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.sticker {
+    width: 200px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Ajusta la altura según sea necesario */
+    margin: 0 10px; /* Ajusta el margen entre las imágenes según sea necesario */
+}
+
+@keyframes cambioColorFondo {
+    0% {
+        background: linear-gradient(to right, #e74c3c, #c0392b);
+    }
+    25% {
+        background: linear-gradient(to right, #f1c40f, #f39c12);
+    }
+    50% {
+        background: linear-gradient(to right, #2ecc71, #27ae60);
+    }
+    75% {
+        background: linear-gradient(to right, #3498db, #2980b9);
+    }
+    100% {
+        background: linear-gradient(to right, #e74c3c, #c0392b);
+    }
+}
+
+body {
+    animation: cambioColorFondo 20s infinite;
+}
+.side-gif-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Ajusta la altura según sea necesario */
+}
+
+
+
+.side-gif-container {
+    position: right center;
+    top: 0;
+    right: 1100px;
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    height: auto; /* Ajusta la altura según sea necesario */
+}
+
+.side-gif {
+    width: 100%;
+    height: auto;
+}
